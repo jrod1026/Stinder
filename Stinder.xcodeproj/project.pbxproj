@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D72086E30B00E0F814 /* AppDelegate.swift */; };
+		46B380DA2086E30B00E0F814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D92086E30B00E0F814 /* ViewController.swift */; };
+		46B380DD2086E30B00E0F814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B380DB2086E30B00E0F814 /* Main.storyboard */; };
+		46B380DF2086E30C00E0F814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B380DE2086E30C00E0F814 /* Assets.xcassets */; };
+		46B380E22086E30C00E0F814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B380E02086E30C00E0F814 /* LaunchScreen.storyboard */; };
+		46B380ED2086E30C00E0F814 /* StinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380EC2086E30C00E0F814 /* StinderTests.swift */; };
+		46B380F82086E30C00E0F814 /* StinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380F72086E30C00E0F814 /* StinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B380E92086E30C00E0F814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B380CC2086E30B00E0F814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B380D32086E30B00E0F814;
+			remoteInfo = Stinder;
+		};
+		46B380F42086E30C00E0F814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B380CC2086E30B00E0F814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B380D32086E30B00E0F814;
+			remoteInfo = Stinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46B380D42086E30B00E0F814 /* Stinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B380D72086E30B00E0F814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46B380D92086E30B00E0F814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46B380DC2086E30B00E0F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46B380DE2086E30C00E0F814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46B380E12086E30C00E0F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46B380E32086E30C00E0F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B380E82086E30C00E0F814 /* StinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B380EC2086E30C00E0F814 /* StinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinderTests.swift; sourceTree = "<group>"; };
+		46B380EE2086E30C00E0F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B380F32086E30C00E0F814 /* StinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B380F72086E30C00E0F814 /* StinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinderUITests.swift; sourceTree = "<group>"; };
+		46B380F92086E30C00E0F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B380D12086E30B00E0F814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380E52086E30C00E0F814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380F02086E30C00E0F814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B380CB2086E30B00E0F814 = {
+			isa = PBXGroup;
+			children = (
+				46B380D62086E30B00E0F814 /* Stinder */,
+				46B380EB2086E30C00E0F814 /* StinderTests */,
+				46B380F62086E30C00E0F814 /* StinderUITests */,
+				46B380D52086E30B00E0F814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46B380D52086E30B00E0F814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B380D42086E30B00E0F814 /* Stinder.app */,
+				46B380E82086E30C00E0F814 /* StinderTests.xctest */,
+				46B380F32086E30C00E0F814 /* StinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B380D62086E30B00E0F814 /* Stinder */ = {
+			isa = PBXGroup;
+			children = (
+				46B380D72086E30B00E0F814 /* AppDelegate.swift */,
+				46B380D92086E30B00E0F814 /* ViewController.swift */,
+				46B380DB2086E30B00E0F814 /* Main.storyboard */,
+				46B380DE2086E30C00E0F814 /* Assets.xcassets */,
+				46B380E02086E30C00E0F814 /* LaunchScreen.storyboard */,
+				46B380E32086E30C00E0F814 /* Info.plist */,
+			);
+			path = Stinder;
+			sourceTree = "<group>";
+		};
+		46B380EB2086E30C00E0F814 /* StinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				46B380EC2086E30C00E0F814 /* StinderTests.swift */,
+				46B380EE2086E30C00E0F814 /* Info.plist */,
+			);
+			path = StinderTests;
+			sourceTree = "<group>";
+		};
+		46B380F62086E30C00E0F814 /* StinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46B380F72086E30C00E0F814 /* StinderUITests.swift */,
+				46B380F92086E30C00E0F814 /* Info.plist */,
+			);
+			path = StinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B380D32086E30B00E0F814 /* Stinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B380FC2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "Stinder" */;
+			buildPhases = (
+				46B380D02086E30B00E0F814 /* Sources */,
+				46B380D12086E30B00E0F814 /* Frameworks */,
+				46B380D22086E30B00E0F814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stinder;
+			productName = Stinder;
+			productReference = 46B380D42086E30B00E0F814 /* Stinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46B380E72086E30C00E0F814 /* StinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B380FF2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderTests" */;
+			buildPhases = (
+				46B380E42086E30C00E0F814 /* Sources */,
+				46B380E52086E30C00E0F814 /* Frameworks */,
+				46B380E62086E30C00E0F814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B380EA2086E30C00E0F814 /* PBXTargetDependency */,
+			);
+			name = StinderTests;
+			productName = StinderTests;
+			productReference = 46B380E82086E30C00E0F814 /* StinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46B380F22086E30C00E0F814 /* StinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B381022086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderUITests" */;
+			buildPhases = (
+				46B380EF2086E30C00E0F814 /* Sources */,
+				46B380F02086E30C00E0F814 /* Frameworks */,
+				46B380F12086E30C00E0F814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B380F52086E30C00E0F814 /* PBXTargetDependency */,
+			);
+			name = StinderUITests;
+			productName = StinderUITests;
+			productReference = 46B380F32086E30C00E0F814 /* StinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B380CC2086E30B00E0F814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Josue Rodriguez";
+				TargetAttributes = {
+					46B380D32086E30B00E0F814 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					46B380E72086E30C00E0F814 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 46B380D32086E30B00E0F814;
+					};
+					46B380F22086E30C00E0F814 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 46B380D32086E30B00E0F814;
+					};
+				};
+			};
+			buildConfigurationList = 46B380CF2086E30B00E0F814 /* Build configuration list for PBXProject "Stinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46B380CB2086E30B00E0F814;
+			productRefGroup = 46B380D52086E30B00E0F814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B380D32086E30B00E0F814 /* Stinder */,
+				46B380E72086E30C00E0F814 /* StinderTests */,
+				46B380F22086E30C00E0F814 /* StinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B380D22086E30B00E0F814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B380E22086E30C00E0F814 /* LaunchScreen.storyboard in Resources */,
+				46B380DF2086E30C00E0F814 /* Assets.xcassets in Resources */,
+				46B380DD2086E30B00E0F814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380E62086E30C00E0F814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380F12086E30C00E0F814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B380D02086E30B00E0F814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B380DA2086E30B00E0F814 /* ViewController.swift in Sources */,
+				46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380E42086E30C00E0F814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B380ED2086E30C00E0F814 /* StinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B380EF2086E30C00E0F814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B380F82086E30C00E0F814 /* StinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B380EA2086E30C00E0F814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B380D32086E30B00E0F814 /* Stinder */;
+			targetProxy = 46B380E92086E30C00E0F814 /* PBXContainerItemProxy */;
+		};
+		46B380F52086E30C00E0F814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B380D32086E30B00E0F814 /* Stinder */;
+			targetProxy = 46B380F42086E30C00E0F814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46B380DB2086E30B00E0F814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B380DC2086E30B00E0F814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46B380E02086E30C00E0F814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B380E12086E30C00E0F814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B380FA2086E30C00E0F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46B380FB2086E30C00E0F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46B380FD2086E30C00E0F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = Stinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.Stinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46B380FE2086E30C00E0F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = Stinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.Stinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46B381002086E30C00E0F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = StinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.StinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stinder.app/Stinder";
+			};
+			name = Debug;
+		};
+		46B381012086E30C00E0F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = StinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.StinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stinder.app/Stinder";
+			};
+			name = Release;
+		};
+		46B381032086E30C00E0F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = StinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.StinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stinder;
+			};
+			name = Debug;
+		};
+		46B381042086E30C00E0F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
+				INFOPLIST_FILE = StinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jrod.StinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B380CF2086E30B00E0F814 /* Build configuration list for PBXProject "Stinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B380FA2086E30C00E0F814 /* Debug */,
+				46B380FB2086E30C00E0F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B380FC2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "Stinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B380FD2086E30C00E0F814 /* Debug */,
+				46B380FE2086E30C00E0F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B380FF2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B381002086E30C00E0F814 /* Debug */,
+				46B381012086E30C00E0F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B381022086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B381032086E30C00E0F814 /* Debug */,
+				46B381042086E30C00E0F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B380CC2086E30B00E0F814 /* Project object */;
+}
