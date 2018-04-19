@@ -14,6 +14,7 @@
 		469BD4B220870C18004C7D35 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B120870C18004C7D35 /* UserViewController.swift */; };
 		469BD4B420870C2D004C7D35 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B320870C2D004C7D35 /* ChatViewController.swift */; };
 		469BD4B620870DF8004C7D35 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B520870DF8004C7D35 /* TabBarController.swift */; };
+		469BD4B8208839CD004C7D35 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B7208839CD004C7D35 /* CameraHandler.swift */; };
 		46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D72086E30B00E0F814 /* AppDelegate.swift */; };
 		46B380DA2086E30B00E0F814 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D92086E30B00E0F814 /* LogInViewController.swift */; };
 		46B380DD2086E30B00E0F814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B380DB2086E30B00E0F814 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		469BD4B120870C18004C7D35 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		469BD4B320870C2D004C7D35 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		469BD4B520870DF8004C7D35 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		469BD4B7208839CD004C7D35 /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
 		46B380D42086E30B00E0F814 /* Stinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B380D72086E30B00E0F814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46B380D92086E30B00E0F814 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				46B380D72086E30B00E0F814 /* AppDelegate.swift */,
+				469BD4B7208839CD004C7D35 /* CameraHandler.swift */,
 				469BD4B520870DF8004C7D35 /* TabBarController.swift */,
 				469BD4B320870C2D004C7D35 /* ChatViewController.swift */,
 				469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */,
@@ -489,6 +492,7 @@
 				46B380DA2086E30B00E0F814 /* LogInViewController.swift in Sources */,
 				469BD4B020870BFD004C7D35 /* ClassAdderViewController.swift in Sources */,
 				469BD4B620870DF8004C7D35 /* TabBarController.swift in Sources */,
+				469BD4B8208839CD004C7D35 /* CameraHandler.swift in Sources */,
 				469BD4B420870C2D004C7D35 /* ChatViewController.swift in Sources */,
 				46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */,
 			);

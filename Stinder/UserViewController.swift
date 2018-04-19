@@ -13,9 +13,17 @@ class UserViewController: UIViewController {
 
     @IBOutlet weak var displayName: UILabel!
     @IBOutlet weak var userProfilePicture: UIImageView!
+    @IBAction func changePhoto(_ sender: Any) {
+        CameraHandler.shared.showActionSheet(vc: self)
+        CameraHandler.shared.imagePickedBlock = { (image) in
+            self.userProfilePicture.image = image
+        }
+    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         displayName.text = Auth.auth().currentUser?.displayName
+        userProfilePicture.layer.cornerRadius = 10.0
         //var imageURL =
         //userProfilePicture.image =
         // Do any additional setup after loading the view.
