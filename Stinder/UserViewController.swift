@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class UserViewController: UIViewController {
 
+    @IBOutlet weak var displayName: UILabel!
+    @IBOutlet weak var userProfilePicture: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        displayName.text = Auth.auth().currentUser?.displayName
+        //var imageURL =
+        //userProfilePicture.image =
         // Do any additional setup after loading the view.
     }
 
