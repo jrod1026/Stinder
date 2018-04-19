@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455E99E5AE359D5773E27B34 /* Pods_StinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333F712E2666794D9C7503C3 /* Pods_StinderUITests.framework */; };
+		4611D9A92086FD85003B037E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4611D9A82086FD85003B037E /* GoogleService-Info.plist */; };
+		469BD4AE20870BB7004C7D35 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */; };
+		469BD4B020870BFD004C7D35 /* ClassAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */; };
+		469BD4B220870C18004C7D35 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B120870C18004C7D35 /* UserViewController.swift */; };
+		469BD4B420870C2D004C7D35 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B320870C2D004C7D35 /* ChatViewController.swift */; };
+		469BD4B620870DF8004C7D35 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B520870DF8004C7D35 /* TabBarController.swift */; };
 		46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D72086E30B00E0F814 /* AppDelegate.swift */; };
-		46B380DA2086E30B00E0F814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D92086E30B00E0F814 /* ViewController.swift */; };
+		46B380DA2086E30B00E0F814 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380D92086E30B00E0F814 /* LogInViewController.swift */; };
 		46B380DD2086E30B00E0F814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B380DB2086E30B00E0F814 /* Main.storyboard */; };
 		46B380DF2086E30C00E0F814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B380DE2086E30C00E0F814 /* Assets.xcassets */; };
 		46B380E22086E30C00E0F814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B380E02086E30C00E0F814 /* LaunchScreen.storyboard */; };
 		46B380ED2086E30C00E0F814 /* StinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380EC2086E30C00E0F814 /* StinderTests.swift */; };
 		46B380F82086E30C00E0F814 /* StinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B380F72086E30C00E0F814 /* StinderUITests.swift */; };
+		A42D60DCE2F75412AA70B229 /* Pods_Stinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEDC0981E3EC2E8266E9A2F /* Pods_Stinder.framework */; };
+		D38BA8E91F10D40032C40765 /* Pods_StinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CEF355BF0D75494E1B7D56 /* Pods_StinderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2392122781ADC22B42E5DE78 /* Pods-StinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StinderTests/Pods-StinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		333F712E2666794D9C7503C3 /* Pods_StinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4611D9A82086FD85003B037E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassAdderViewController.swift; sourceTree = "<group>"; };
+		469BD4B120870C18004C7D35 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		469BD4B320870C2D004C7D35 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		469BD4B520870DF8004C7D35 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		46B380D42086E30B00E0F814 /* Stinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B380D72086E30B00E0F814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46B380D92086E30B00E0F814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46B380D92086E30B00E0F814 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		46B380DC2086E30B00E0F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46B380DE2086E30C00E0F814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B380E12086E30C00E0F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,13 @@
 		46B380F32086E30C00E0F814 /* StinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B380F72086E30C00E0F814 /* StinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinderUITests.swift; sourceTree = "<group>"; };
 		46B380F92086E30C00E0F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CEF355BF0D75494E1B7D56 /* Pods_StinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6388C2D2AB2FB93BB83D9B0D /* Pods-StinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StinderUITests/Pods-StinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B13CDDCF2457D6F825EF6EE /* Pods-StinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StinderTests/Pods-StinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CF75D2CBCA698CF5E8FD731 /* Pods-Stinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stinder/Pods-Stinder.release.xcconfig"; sourceTree = "<group>"; };
+		AEEDC0981E3EC2E8266E9A2F /* Pods_Stinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D796BE9E651CD9ADA1849485 /* Pods-Stinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stinder/Pods-Stinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F19892C0883CC70051433FCE /* Pods-StinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StinderUITests/Pods-StinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42D60DCE2F75412AA70B229 /* Pods_Stinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38BA8E91F10D40032C40765 /* Pods_StinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455E99E5AE359D5773E27B34 /* Pods_StinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				46B380EB2086E30C00E0F814 /* StinderTests */,
 				46B380F62086E30C00E0F814 /* StinderUITests */,
 				46B380D52086E30B00E0F814 /* Products */,
+				9610E3DABABDCDDCEF96EF5C /* Pods */,
+				95644D06270005B5A24F6CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +127,17 @@
 			isa = PBXGroup;
 			children = (
 				46B380D72086E30B00E0F814 /* AppDelegate.swift */,
-				46B380D92086E30B00E0F814 /* ViewController.swift */,
+				469BD4B520870DF8004C7D35 /* TabBarController.swift */,
+				469BD4B320870C2D004C7D35 /* ChatViewController.swift */,
+				469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */,
+				469BD4B120870C18004C7D35 /* UserViewController.swift */,
+				46B380D92086E30B00E0F814 /* LogInViewController.swift */,
 				46B380DB2086E30B00E0F814 /* Main.storyboard */,
 				46B380DE2086E30C00E0F814 /* Assets.xcassets */,
 				46B380E02086E30C00E0F814 /* LaunchScreen.storyboard */,
 				46B380E32086E30C00E0F814 /* Info.plist */,
+				4611D9A82086FD85003B037E /* GoogleService-Info.plist */,
+				469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */,
 			);
 			path = Stinder;
 			sourceTree = "<group>";
@@ -125,6 +160,29 @@
 			path = StinderUITests;
 			sourceTree = "<group>";
 		};
+		95644D06270005B5A24F6CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDC0981E3EC2E8266E9A2F /* Pods_Stinder.framework */,
+				53CEF355BF0D75494E1B7D56 /* Pods_StinderTests.framework */,
+				333F712E2666794D9C7503C3 /* Pods_StinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9610E3DABABDCDDCEF96EF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D796BE9E651CD9ADA1849485 /* Pods-Stinder.debug.xcconfig */,
+				9CF75D2CBCA698CF5E8FD731 /* Pods-Stinder.release.xcconfig */,
+				2392122781ADC22B42E5DE78 /* Pods-StinderTests.debug.xcconfig */,
+				8B13CDDCF2457D6F825EF6EE /* Pods-StinderTests.release.xcconfig */,
+				6388C2D2AB2FB93BB83D9B0D /* Pods-StinderUITests.debug.xcconfig */,
+				F19892C0883CC70051433FCE /* Pods-StinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B380FC2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "Stinder" */;
 			buildPhases = (
+				4296BD4AFDF47390A0EF8623 /* [CP] Check Pods Manifest.lock */,
 				46B380D02086E30B00E0F814 /* Sources */,
 				46B380D12086E30B00E0F814 /* Frameworks */,
 				46B380D22086E30B00E0F814 /* Resources */,
+				0B984F51BA7FD83A7B8FF318 /* [CP] Embed Pods Frameworks */,
+				36D28FBD0599C5CAE7FED7B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B380FF2086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderTests" */;
 			buildPhases = (
+				9A4F94B513E044E7BC707E13 /* [CP] Check Pods Manifest.lock */,
 				46B380E42086E30C00E0F814 /* Sources */,
 				46B380E52086E30C00E0F814 /* Frameworks */,
 				46B380E62086E30C00E0F814 /* Resources */,
+				02DEBCF63E0AB52BBF47FF62 /* [CP] Embed Pods Frameworks */,
+				819FF90721284B136AC9976C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B381022086E30C00E0F814 /* Build configuration list for PBXNativeTarget "StinderUITests" */;
 			buildPhases = (
+				103713BC25961676C3BF6CD7 /* [CP] Check Pods Manifest.lock */,
 				46B380EF2086E30C00E0F814 /* Sources */,
 				46B380F02086E30C00E0F814 /* Frameworks */,
 				46B380F12086E30C00E0F814 /* Resources */,
+				54E08EFA24995BD7A965835B /* [CP] Embed Pods Frameworks */,
+				65B92E12ED248396F89AE3DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +298,7 @@
 			files = (
 				46B380E22086E30C00E0F814 /* LaunchScreen.storyboard in Resources */,
 				46B380DF2086E30C00E0F814 /* Assets.xcassets in Resources */,
+				4611D9A92086FD85003B037E /* GoogleService-Info.plist in Resources */,
 				46B380DD2086E30B00E0F814 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +319,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02DEBCF63E0AB52BBF47FF62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StinderTests/Pods-StinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B984F51BA7FD83A7B8FF318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stinder/Pods-Stinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stinder/Pods-Stinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		103713BC25961676C3BF6CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D28FBD0599C5CAE7FED7B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stinder/Pods-Stinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4296BD4AFDF47390A0EF8623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E08EFA24995BD7A965835B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StinderUITests/Pods-StinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B92E12ED248396F89AE3DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StinderUITests/Pods-StinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819FF90721284B136AC9976C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StinderTests/Pods-StinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4F94B513E044E7BC707E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46B380D02086E30B00E0F814 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B380DA2086E30B00E0F814 /* ViewController.swift in Sources */,
+				469BD4AE20870BB7004C7D35 /* SignUpViewController.swift in Sources */,
+				469BD4B220870C18004C7D35 /* UserViewController.swift in Sources */,
+				46B380DA2086E30B00E0F814 /* LogInViewController.swift in Sources */,
+				469BD4B020870BFD004C7D35 /* ClassAdderViewController.swift in Sources */,
+				469BD4B620870DF8004C7D35 /* TabBarController.swift in Sources */,
+				469BD4B420870C2D004C7D35 /* ChatViewController.swift in Sources */,
 				46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +661,7 @@
 		};
 		46B380FD2086E30C00E0F814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D796BE9E651CD9ADA1849485 /* Pods-Stinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +680,7 @@
 		};
 		46B380FE2086E30C00E0F814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF75D2CBCA698CF5E8FD731 /* Pods-Stinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +699,7 @@
 		};
 		46B381002086E30C00E0F814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2392122781ADC22B42E5DE78 /* Pods-StinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +721,7 @@
 		};
 		46B381012086E30C00E0F814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B13CDDCF2457D6F825EF6EE /* Pods-StinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +743,7 @@
 		};
 		46B381032086E30C00E0F814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6388C2D2AB2FB93BB83D9B0D /* Pods-StinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +764,7 @@
 		};
 		46B381042086E30C00E0F814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19892C0883CC70051433FCE /* Pods-StinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
