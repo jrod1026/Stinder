@@ -42,13 +42,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-zp-vvt">
                                         <rect key="frame" x="0.0" y="50" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -104,11 +104,13 @@
             </objects>
             <point key="canvasLocation" x="641" y="28"/>
         </scene>
-        <!--User-->
+        <!--Navigation Controller-->
         <scene sceneID="eAz-i3-NLW">
             <objects>
                 <navigationController id="o0h-lP-Ee7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="User" id="dCf-h0-AmW"/>
+                    <tabBarItem key="tabBarItem" title="" image="profile-placeholder copy" id="dCf-h0-AmW">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U4l-Ew-y56">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -135,7 +137,7 @@
                                 <color key="textColor" red="1" green="0.27058823529411763" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OVK-wB-yFB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-placeholder" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVK-wB-yFB">
                                 <rect key="frame" x="125" y="81" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="52o-9g-DhL"/>
@@ -323,4 +325,8 @@
             <point key="canvasLocation" x="2500" y="382"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile-placeholder" width="250" height="250"/>
+        <image name="profile-placeholder copy" width="34" height="34"/>
+    </resources>
 </document>

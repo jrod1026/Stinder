@@ -8,15 +8,17 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseStorage
 
 class UserViewController: UIViewController {
-
+    var dbRef = Storage.storage().reference()
     @IBOutlet weak var displayName: UILabel!
     @IBOutlet weak var userProfilePicture: UIImageView!
     @IBAction func changePhoto(_ sender: Any) {
         CameraHandler.shared.showActionSheet(vc: self)
         CameraHandler.shared.imagePickedBlock = { (image) in
             self.userProfilePicture.image = image
+            //dbRef.child("ProfilePic").
         }
     
     }
@@ -24,6 +26,8 @@ class UserViewController: UIViewController {
         super.viewDidLoad()
         displayName.text = Auth.auth().currentUser?.displayName
         userProfilePicture.layer.cornerRadius = 10.0
+        
+        
         //var imageURL =
         //userProfilePicture.image =
         // Do any additional setup after loading the view.
@@ -33,7 +37,7 @@ class UserViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation

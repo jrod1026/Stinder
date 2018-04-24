@@ -52,6 +52,10 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         self.passwordTextField.delegate = self
         LogoImageView.image = #imageLiteral(resourceName: "stinderLogo")
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
