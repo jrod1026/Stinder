@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		455E99E5AE359D5773E27B34 /* Pods_StinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333F712E2666794D9C7503C3 /* Pods_StinderUITests.framework */; };
 		4611D9A92086FD85003B037E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4611D9A82086FD85003B037E /* GoogleService-Info.plist */; };
+		461D49522098307300154CAE /* AddClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D49512098307300154CAE /* AddClassTableViewController.swift */; };
+		461D4954209838F300154CAE /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D4953209838F300154CAE /* AddClassViewController.swift */; };
+		461D495620990D1E00154CAE /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D495520990D1E00154CAE /* StackViewController.swift */; };
 		469BD4AE20870BB7004C7D35 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */; };
 		469BD4B020870BFD004C7D35 /* ClassAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */; };
 		469BD4B220870C18004C7D35 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BD4B120870C18004C7D35 /* UserViewController.swift */; };
@@ -47,6 +50,9 @@
 		2392122781ADC22B42E5DE78 /* Pods-StinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StinderTests/Pods-StinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		333F712E2666794D9C7503C3 /* Pods_StinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4611D9A82086FD85003B037E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		461D49512098307300154CAE /* AddClassTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassTableViewController.swift; sourceTree = "<group>"; };
+		461D4953209838F300154CAE /* AddClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
+		461D495520990D1E00154CAE /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		469BD4AF20870BFD004C7D35 /* ClassAdderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassAdderViewController.swift; sourceTree = "<group>"; };
 		469BD4B120870C18004C7D35 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +147,9 @@
 				46B380E32086E30C00E0F814 /* Info.plist */,
 				4611D9A82086FD85003B037E /* GoogleService-Info.plist */,
 				469BD4AD20870BB7004C7D35 /* SignUpViewController.swift */,
+				461D49512098307300154CAE /* AddClassTableViewController.swift */,
+				461D4953209838F300154CAE /* AddClassViewController.swift */,
+				461D495520990D1E00154CAE /* StackViewController.swift */,
 			);
 			path = Stinder;
 			sourceTree = "<group>";
@@ -488,11 +497,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				469BD4AE20870BB7004C7D35 /* SignUpViewController.swift in Sources */,
+				461D495620990D1E00154CAE /* StackViewController.swift in Sources */,
 				469BD4B220870C18004C7D35 /* UserViewController.swift in Sources */,
 				46B380DA2086E30B00E0F814 /* LogInViewController.swift in Sources */,
+				461D4954209838F300154CAE /* AddClassViewController.swift in Sources */,
 				469BD4B020870BFD004C7D35 /* ClassAdderViewController.swift in Sources */,
 				469BD4B620870DF8004C7D35 /* TabBarController.swift in Sources */,
 				469BD4B8208839CD004C7D35 /* CameraHandler.swift in Sources */,
+				461D49522098307300154CAE /* AddClassTableViewController.swift in Sources */,
 				469BD4B420870C2D004C7D35 /* ChatViewController.swift in Sources */,
 				46B380D82086E30B00E0F814 /* AppDelegate.swift in Sources */,
 			);
@@ -671,6 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
 				INFOPLIST_FILE = Stinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -690,6 +703,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59ZVRGPJ2Q;
 				INFOPLIST_FILE = Stinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

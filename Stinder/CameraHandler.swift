@@ -23,6 +23,7 @@ class CameraHandler: NSObject{
         if UIImagePickerController.isSourceTypeAvailable(.camera){
             let myPickerController = UIImagePickerController()
             myPickerController.delegate = self;
+            myPickerController.allowsEditing = true
             myPickerController.sourceType = .camera
             currentVC.present(myPickerController, animated: true, completion: nil)
         }
@@ -35,6 +36,7 @@ class CameraHandler: NSObject{
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
             let myPickerController = UIImagePickerController()
             myPickerController.delegate = self;
+            myPickerController.allowsEditing = true
             myPickerController.sourceType = .photoLibrary
             currentVC.present(myPickerController, animated: true, completion: nil)
         }
